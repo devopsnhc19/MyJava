@@ -7,10 +7,10 @@ public class Main
         Scanner scn=new Scanner(System.in);
         
         System.out.println("Enter the first number:");
-        int x = scn.nextInt();
+        int x = Integer.parseInt(args[0]);
         
         System.out.println("Enter the second number:");
-        int y = scn.nextInt(); 
+        int y =Integer.parseInt(args[1]); 
         
         int sum = x + y;
         System.out.println("Sum is " + sum);
